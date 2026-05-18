@@ -3,6 +3,21 @@
 旧博客笔记已经按主题拆分成下面这些复习文章。原始归档仍然保留在最后，方便需要时回看完整上下文。
 
 <div class="post-list">
+  <a href="./micro-frontend-guide">
+    <h2>微前端实战与面试复习</h2>
+    <p>从架构拆分、运行时集成、通信、样式隔离、部署和面试表达系统梳理微前端。</p>
+  </a>
+
+  <a href="./frontend-troubleshooting-white-screen-jank">
+    <h2>前端故障排查：白屏与页面卡顿</h2>
+    <p>以用户页面白屏和卡顿为例，整理监控、定位、修复和复盘方法。</p>
+  </a>
+
+  <a href="./frontend-performance-optimization">
+    <h2>前端性能优化系统梳理</h2>
+    <p>覆盖加载、渲染、运行时、缓存、图片、构建和监控闭环。</p>
+  </a>
+
   <a href="./js-async-event-loop">
     <h2>JavaScript 异步与事件循环</h2>
     <p>JS 异步、事件循环、队列和计时器相关内容。</p>

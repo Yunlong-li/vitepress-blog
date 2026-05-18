@@ -42,6 +42,14 @@ export default defineConfig({
           ]
         },
         {
+          text: '前端工程实践',
+          items: [
+            { text: '微前端实战与面试复习', link: '/posts/micro-frontend-guide' },
+            { text: '白屏与卡顿故障排查', link: '/posts/frontend-troubleshooting-white-screen-jank' },
+            { text: '前端性能优化系统梳理', link: '/posts/frontend-performance-optimization' }
+          ]
+        },
+        {
           text: '浏览器与前端工程',
           items: [
             { text: '浏览器渲染与前端性能', link: '/posts/browser-render-performance' },
