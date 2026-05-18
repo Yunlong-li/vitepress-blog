@@ -27,9 +27,39 @@ export default defineConfig({
     sidebar: {
       '/posts/': [
         {
-          text: '文章',
+          text: 'JavaScript',
           items: [
-            { text: '旧博客笔记归档', link: '/posts/notebook' },
+            { text: '异步与事件循环', link: '/posts/js-async-event-loop' },
+            { text: '数值与字符串', link: '/posts/js-number-string' },
+            { text: 'this、闭包与函数技巧', link: '/posts/js-this-closure-functional' },
+            { text: '集合、数组与遍历', link: '/posts/js-collections-arrays-iteration' }
+          ]
+        },
+        {
+          text: 'Vue',
+          items: [
+            { text: 'Vue 3 面试复习', link: '/posts/vue3-review' }
+          ]
+        },
+        {
+          text: '浏览器与前端工程',
+          items: [
+            { text: '浏览器渲染与前端性能', link: '/posts/browser-render-performance' },
+            { text: '前端兼容、路由与 SEO', link: '/posts/frontend-routing-seo-compat' },
+            { text: 'CSS 0.5px 边框实现', link: '/posts/css-half-pixel-border' }
+          ]
+        },
+        {
+          text: '算法与复习',
+          items: [
+            { text: '算法与手写题复习', link: '/posts/algorithm-coding' },
+            { text: '复习待办清单', link: '/posts/review-todo' }
+          ]
+        },
+        {
+          text: '归档',
+          items: [
+            { text: '旧博客笔记归档（原始）', link: '/posts/notebook' },
             { text: '开始写博客', link: '/posts/hello-vitepress' }
           ]
         }
