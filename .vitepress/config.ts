@@ -1,17 +1,24 @@
 import { defineConfig } from 'vitepress'
 
+const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1]
+const isUserOrOrgPages = repositoryName?.endsWith('.github.io')
+const base = process.env.GITHUB_ACTIONS && repositoryName && !isUserOrOrgPages
+  ? `/${repositoryName}/`
+  : '/'
+
 export default defineConfig({
   title: '我的博客',
   description: '用 VitePress 搭建的个人博客',
   lang: 'zh-CN',
+  base,
   cleanUrls: true,
   lastUpdated: true,
   head: [
     ['meta', { name: 'theme-color', content: '#2563eb' }],
-    ['link', { rel: 'icon', href: '/favicon.svg' }]
+    ['link', { rel: 'icon', href: `${base}favicon.svg` }]
   ],
   themeConfig: {
-    logo: '/favicon.svg',
+    logo: `${base}favicon.svg`,
     nav: [
       { text: '首页', link: '/' },
       { text: '文章', link: '/posts/' },

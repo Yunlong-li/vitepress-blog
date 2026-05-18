@@ -15,6 +15,22 @@ pnpm dev
 pnpm build
 ```
 
+## 部署到 GitHub Pages
+
+项目已包含 `.github/workflows/deploy.yml`。推送到 GitHub 的 `master` 或 `main` 分支后，GitHub Actions 会自动构建并部署到 GitHub Pages。
+
+如果这是普通项目仓库，例如 `vitepress-blog`，线上地址通常是：
+
+```txt
+https://你的用户名.github.io/vitepress-blog/
+```
+
+如果仓库名是 `你的用户名.github.io`，线上地址通常是：
+
+```txt
+https://你的用户名.github.io/
+```
+
 ## 目录
 
 - `.vitepress/config.ts`: 站点配置
