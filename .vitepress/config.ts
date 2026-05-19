@@ -11,6 +11,7 @@ export default defineConfig({
   description: '用 VitePress 搭建的个人博客',
   lang: 'zh-CN',
   base,
+  srcExclude: ['blog_origin/**'],
   cleanUrls: true,
   lastUpdated: true,
   head: [
@@ -46,7 +47,9 @@ export default defineConfig({
           items: [
             { text: '微前端实战与面试复习', link: '/posts/micro-frontend-guide' },
             { text: '白屏与卡顿故障排查', link: '/posts/frontend-troubleshooting-white-screen-jank' },
-            { text: '前端性能优化系统梳理', link: '/posts/frontend-performance-optimization' }
+            { text: '前端性能优化系统梳理', link: '/posts/frontend-performance-optimization' },
+            { text: '前端埋点实战与面试复习', link: '/posts/frontend-tracking-guide' },
+            { text: '移动端适配实战与面试复习', link: '/posts/mobile-adaptation-guide' }
           ]
         },
         {

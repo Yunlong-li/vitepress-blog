@@ -18,6 +18,16 @@
     <p>覆盖加载、渲染、运行时、缓存、图片、构建和监控闭环。</p>
   </a>
 
+  <a href="./frontend-tracking-guide">
+    <h2>前端埋点实战与面试复习</h2>
+    <p>系统梳理 PV、点击、曝光、停留、性能、错误、上报 SDK 和数据质量治理。</p>
+  </a>
+
+  <a href="./mobile-adaptation-guide">
+    <h2>移动端适配实战与面试复习</h2>
+    <p>覆盖 viewport、rem、vw、响应式布局、安全区、高清屏和移动端调试。</p>
+  </a>
+
   <a href="./js-async-event-loop">
     <h2>JavaScript 异步与事件循环</h2>
     <p>JS 异步、事件循环、队列和计时器相关内容。</p>
