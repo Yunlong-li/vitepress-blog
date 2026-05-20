@@ -28,6 +28,13 @@ export default defineConfig({
     sidebar: {
       '/posts/': [
         {
+          text: '全栈学习',
+          items: [
+            { text: 'TypeScript 实战教程', link: '/posts/typescript-learning-roadmap' },
+            { text: 'Node.js 实战教程', link: '/posts/nodejs-learning-roadmap' }
+          ]
+        },
+        {
           text: 'JavaScript',
           items: [
             { text: '异步与事件循环', link: '/posts/js-async-event-loop' },

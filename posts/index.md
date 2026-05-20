@@ -29,13 +29,13 @@
   </a>
 
   <a href="./typescript-learning-roadmap">
-    <h2>TypeScript 学习路线（有 JS 基础）</h2>
-    <p>从类型系统、类型建模到工程化落地的学习路径与实战建议。</p>
+    <h2>TypeScript 实战教程：从类型基础到业务建模</h2>
+    <p>通过商品和订单业务场景，讲清联合类型、类型守卫、泛型请求 SDK、表单和组件类型。</p>
   </a>
 
   <a href="./nodejs-learning-roadmap">
-    <h2>Node.js 学习路线（有 JS 基础）</h2>
-    <p>从 Node 运行时认知到后端项目实战与部署的系统学习路径。</p>
+    <h2>Node.js 实战教程：从 JS 基础到可上线 API</h2>
+    <p>通过 Todo API 项目讲清运行时、HTTP、路由、中间件、错误处理、鉴权和部署思路。</p>
   </a>
 
   <a href="./js-async-event-loop">
