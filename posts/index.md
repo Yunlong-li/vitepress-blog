@@ -28,6 +28,16 @@
     <p>覆盖 viewport、rem、vw、响应式布局、安全区、高清屏和移动端调试。</p>
   </a>
 
+  <a href="./typescript-learning-roadmap">
+    <h2>TypeScript 学习路线（有 JS 基础）</h2>
+    <p>从类型系统、类型建模到工程化落地的学习路径与实战建议。</p>
+  </a>
+
+  <a href="./nodejs-learning-roadmap">
+    <h2>Node.js 学习路线（有 JS 基础）</h2>
+    <p>从 Node 运行时认知到后端项目实战与部署的系统学习路径。</p>
+  </a>
+
   <a href="./js-async-event-loop">
     <h2>JavaScript 异步与事件循环</h2>
     <p>JS 异步、事件循环、队列和计时器相关内容。</p>
