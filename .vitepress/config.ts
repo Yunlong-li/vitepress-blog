@@ -47,7 +47,11 @@ export default defineConfig({
           text: 'Vue',
           items: [
             { text: 'Vue 3 面试复习', link: '/posts/vue3-review' },
-            { text: 'Vue 3 相比 Vue 2 的变化', link: '/posts/vue3-vs-vue2-deep-dive' }
+            { text: 'Vue 3 相比 Vue 2 的变化', link: '/posts/vue3-vs-vue2-deep-dive' },
+            { text: 'Vue Diff 算法讲解', link: '/posts/vue-diff-algorithm' },
+            { text: '虚拟 DOM 讲解', link: '/posts/virtual-dom-deep-dive' },
+            { text: 'Vue 全局状态管理工具', link: '/posts/vue-state-management' },
+            { text: 'Vue 组件通信方式', link: '/posts/vue-component-communication' }
           ]
         },
         {

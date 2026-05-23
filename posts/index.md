@@ -68,6 +68,26 @@
     <p>从设计来源、解决的问题和代码用法出发，讲清应用创建、响应式、组合式 API、TypeScript 和迁移要点。</p>
   </a>
 
+  <a href="./vue-diff-algorithm">
+    <h2>Vue Diff 算法讲解：从虚拟节点到最少 DOM 操作</h2>
+    <p>通过同层比较、key、双端比较和最长递增子序列，讲清 Vue 更新列表的核心策略。</p>
+  </a>
+
+  <a href="./virtual-dom-deep-dive">
+    <h2>虚拟 DOM 讲解：它解决了什么问题</h2>
+    <p>从 VNode、render、patch、响应式更新和编译优化出发，理解虚拟 DOM 的真实价值。</p>
+  </a>
+
+  <a href="./vue-state-management">
+    <h2>Vue 2 和 Vue 3 常用全局状态管理工具讲解</h2>
+    <p>结合 Vuex、Pinia、provide/inject 和响应式单例，梳理全局状态的边界与代码组织。</p>
+  </a>
+
+  <a href="./vue-component-communication">
+    <h2>Vue 2 和 Vue 3 组件通信方式讲解</h2>
+    <p>围绕 props、emit、v-model、refs、provide/inject、状态管理和插槽讲清组件间数据流。</p>
+  </a>
+
   <a href="./browser-render-performance">
     <h2>浏览器渲染与前端性能</h2>
     <p>渲染流程、回流重绘、transform 性能和首屏加载优化。</p>
