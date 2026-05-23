@@ -63,6 +63,11 @@
     <p>Vue3 与 Vue2 对比、组合式 API、Hook、TypeScript 支持和生命周期。</p>
   </a>
 
+  <a href="./vue3-vs-vue2-deep-dive">
+    <h2>Vue 3 相比 Vue 2 的变化与设计思路</h2>
+    <p>从设计来源、解决的问题和代码用法出发，讲清应用创建、响应式、组合式 API、TypeScript 和迁移要点。</p>
+  </a>
+
   <a href="./browser-render-performance">
     <h2>浏览器渲染与前端性能</h2>
     <p>渲染流程、回流重绘、transform 性能和首屏加载优化。</p>

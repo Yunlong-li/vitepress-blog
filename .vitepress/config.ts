@@ -46,7 +46,8 @@ export default defineConfig({
         {
           text: 'Vue',
           items: [
-            { text: 'Vue 3 面试复习', link: '/posts/vue3-review' }
+            { text: 'Vue 3 面试复习', link: '/posts/vue3-review' },
+            { text: 'Vue 3 相比 Vue 2 的变化', link: '/posts/vue3-vs-vue2-deep-dive' }
           ]
         },
         {
