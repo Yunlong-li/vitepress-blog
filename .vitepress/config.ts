@@ -35,6 +35,16 @@ export default defineConfig({
           ]
         },
         {
+          text: '后端基础设施',
+          items: [
+            { text: 'Nginx 使用教程', link: '/posts/nginx-practical-guide' },
+            { text: '消息队列中间件使用教程', link: '/posts/message-queue-middleware-guide' },
+            { text: 'Redis 使用教程', link: '/posts/redis-practical-guide' },
+            { text: 'Supabase 使用教程', link: '/posts/supabase-practical-guide' },
+            { text: 'PostgreSQL 使用教程', link: '/posts/postgresql-practical-guide' }
+          ]
+        },
+        {
           text: 'JavaScript',
           items: [
             { text: '异步与事件循环', link: '/posts/js-async-event-loop' },

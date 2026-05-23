@@ -3,6 +3,31 @@
 旧博客笔记已经按主题拆分成下面这些复习文章。原始归档仍然保留在最后，方便需要时回看完整上下文。
 
 <div class="post-list">
+  <a href="./nginx-practical-guide">
+    <h2>Nginx 使用教程：从静态服务到反向代理、负载均衡和 HTTPS</h2>
+    <p>从来源和配置模型讲起，覆盖静态资源、反向代理、负载均衡、缓存、压缩、HTTPS、日志和排查。</p>
+  </a>
+
+  <a href="./message-queue-middleware-guide">
+    <h2>消息队列中间件使用教程：RabbitMQ、Kafka、RocketMQ、Redis Streams 和 NATS</h2>
+    <p>讲清消息队列解决的问题，并用代码串起生产者、消费者、确认、重试、死信、幂等和 Outbox。</p>
+  </a>
+
+  <a href="./redis-practical-guide">
+    <h2>Redis 使用教程：从缓存到数据结构、分布式锁、排行榜和 Streams</h2>
+    <p>覆盖常用数据结构、缓存模式、分布式锁、限流、发布订阅、Streams、持久化和内存淘汰。</p>
+  </a>
+
+  <a href="./supabase-practical-guide">
+    <h2>Supabase 使用教程：从数据库、登录鉴权到存储、实时订阅和 Edge Functions</h2>
+    <p>围绕 Postgres、Auth、RLS、Storage、Realtime 和 Edge Functions 构建完整后端能力。</p>
+  </a>
+
+  <a href="./postgresql-practical-guide">
+    <h2>PostgreSQL 使用教程：从 SQL 基础到索引、事务、JSONB 和性能分析</h2>
+    <p>系统讲解表设计、SQL、约束、索引、执行计划、事务、锁、JSONB、全文搜索和 Node.js 访问。</p>
+  </a>
+
   <a href="./micro-frontend-guide">
     <h2>微前端实战与面试复习</h2>
     <p>从架构拆分、运行时集成、通信、样式隔离、部署和面试表达系统梳理微前端。</p>
