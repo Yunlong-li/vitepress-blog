@@ -63,6 +63,11 @@
     <p>通过 Todo API 项目讲清运行时、HTTP、路由、中间件、错误处理、鉴权和部署思路。</p>
   </a>
 
+  <a href="./single-sign-on-guide">
+    <h2>单点登录 SSO 讲解：背景、原理与代码实现</h2>
+    <p>结合 Cookie、Session、OAuth2、OIDC、CAS、SAML、JWT、流程图和代码示例讲清 SSO 落地方案。</p>
+  </a>
+
   <a href="./js-async-event-loop">
     <h2>JavaScript 异步与事件循环</h2>
     <p>JS 异步、事件循环、队列和计时器相关内容。</p>

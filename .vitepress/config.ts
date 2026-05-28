@@ -31,7 +31,8 @@ export default defineConfig({
           text: '全栈学习',
           items: [
             { text: 'TypeScript 实战教程', link: '/posts/typescript-learning-roadmap' },
-            { text: 'Node.js 实战教程', link: '/posts/nodejs-learning-roadmap' }
+            { text: 'Node.js 实战教程', link: '/posts/nodejs-learning-roadmap' },
+            { text: '单点登录 SSO 讲解', link: '/posts/single-sign-on-guide' }
           ]
         },
         {
