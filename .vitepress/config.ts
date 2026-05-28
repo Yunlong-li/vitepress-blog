@@ -1,5 +1,13 @@
 import { defineConfig } from 'vitepress'
 
+function escapeHtml(value: string) {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
 const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1]
 const isUserOrOrgPages = repositoryName?.endsWith('.github.io')
 const base = process.env.GITHUB_ACTIONS && repositoryName && !isUserOrOrgPages
@@ -14,6 +22,33 @@ export default defineConfig({
   srcExclude: ['blog_origin/**'],
   cleanUrls: true,
   lastUpdated: true,
+  markdown: {
+    config(md) {
+      const defaultFence = md.renderer.rules.fence?.bind(md.renderer.rules)
+
+      md.renderer.rules.fence = (tokens, index, options, env, self) => {
+        const token = tokens[index]
+        const language = token.info.trim().split(/\s+/)[0]
+
+        if (language === 'mermaid') {
+          const code = encodeURIComponent(token.content)
+          const fallback = escapeHtml(token.content)
+
+          return [
+            `<MermaidDiagram code="${code}">`,
+            `<pre class="mermaid-fallback"><code>${fallback}</code></pre>`,
+            '</MermaidDiagram>'
+          ].join('')
+        }
+
+        if (defaultFence) {
+          return defaultFence(tokens, index, options, env, self)
+        }
+
+        return self.renderToken(tokens, index, options)
+      }
+    }
+  },
   head: [
     ['meta', { name: 'theme-color', content: '#2563eb' }],
     ['link', { rel: 'icon', href: `${base}favicon.svg` }]
