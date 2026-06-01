@@ -81,6 +81,16 @@ export default defineConfig({
           ]
         },
         {
+          text: 'Python 后端',
+          items: [
+            { text: 'RESTful API 讲解', link: '/posts/restful-api-guide' },
+            { text: 'FastAPI 使用教程', link: '/posts/fastapi-practical-guide' },
+            { text: 'Django 使用教程', link: '/posts/django-practical-guide' },
+            { text: 'PostgreSQL 后端开发教程', link: '/posts/postgresql-backend-guide' },
+            { text: 'SQLAlchemy 使用教程', link: '/posts/sqlalchemy-practical-guide' }
+          ]
+        },
+        {
           text: 'JavaScript',
           items: [
             { text: '异步与事件循环', link: '/posts/js-async-event-loop' },

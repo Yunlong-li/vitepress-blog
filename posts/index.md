@@ -68,6 +68,31 @@
     <p>结合 Cookie、Session、OAuth2、OIDC、CAS、SAML、JWT、流程图和代码示例讲清 SSO 落地方案。</p>
   </a>
 
+  <a href="./restful-api-guide">
+    <h2>RESTful API 讲解：从资源建模到接口落地</h2>
+    <p>围绕资源、HTTP 方法、状态码、分页、错误响应、幂等性、认证和 OpenAPI 讲清接口设计。</p>
+  </a>
+
+  <a href="./fastapi-practical-guide">
+    <h2>FastAPI 使用教程：从接口到工程化</h2>
+    <p>结合路由、Pydantic、依赖注入、异常处理、数据库访问、认证和测试讲清 FastAPI 落地方式。</p>
+  </a>
+
+  <a href="./django-practical-guide">
+    <h2>Django 使用教程：从 MVT 到可维护后端应用</h2>
+    <p>讲解项目结构、MVT、路由、模型、ORM、Admin、表单、认证、DRF 和部署要点。</p>
+  </a>
+
+  <a href="./postgresql-backend-guide">
+    <h2>PostgreSQL 后端开发教程：表设计、SQL、索引与事务</h2>
+    <p>从表设计、约束、查询、索引、执行计划、事务、锁、JSONB、全文搜索和 Python 访问讲起。</p>
+  </a>
+
+  <a href="./sqlalchemy-practical-guide">
+    <h2>SQLAlchemy 使用教程：Core、ORM、事务与异步</h2>
+    <p>系统讲解 Engine、Session、声明式模型、关系映射、查询、事务、Alembic 迁移和异步用法。</p>
+  </a>
+
   <a href="./js-async-event-loop">
     <h2>JavaScript 异步与事件循环</h2>
     <p>JS 异步、事件循环、队列和计时器相关内容。</p>
