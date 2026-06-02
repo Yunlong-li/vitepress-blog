@@ -75,6 +75,7 @@ export default defineConfig({
           items: [
             { text: 'Nginx 使用教程', link: '/posts/nginx-practical-guide' },
             { text: '消息队列中间件使用教程', link: '/posts/message-queue-middleware-guide' },
+            { text: '幂等性讲解', link: '/posts/idempotency-guide' },
             { text: 'Redis 使用教程', link: '/posts/redis-practical-guide' },
             { text: 'Supabase 使用教程', link: '/posts/supabase-practical-guide' },
             { text: 'PostgreSQL 使用教程', link: '/posts/postgresql-practical-guide' }
