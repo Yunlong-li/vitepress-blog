@@ -112,6 +112,23 @@ export default defineConfig({
           ]
         },
         {
+          text: 'React',
+          items: [
+            { text: 'React 使用教程', link: '/posts/react-practical-guide' },
+            { text: 'React 与 Vue 区别', link: '/posts/react-vue-comparison' }
+          ]
+        },
+        {
+          text: '前端工程化',
+          items: [
+            { text: '前端工程化讲解', link: '/posts/frontend-engineering-guide' },
+            { text: 'Babel 讲解', link: '/posts/babel-guide' },
+            { text: 'ESLint 讲解', link: '/posts/eslint-guide' },
+            { text: 'Webpack 讲解', link: '/posts/webpack-guide' },
+            { text: 'Vite 讲解', link: '/posts/vite-guide' }
+          ]
+        },
+        {
           text: '前端工程实践',
           items: [
             { text: '微前端实战与面试复习', link: '/posts/micro-frontend-guide' },

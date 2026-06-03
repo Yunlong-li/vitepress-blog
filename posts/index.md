@@ -58,6 +58,31 @@
     <p>覆盖 viewport、rem、vw、响应式布局、安全区、高清屏和移动端调试。</p>
   </a>
 
+  <a href="./frontend-engineering-guide">
+    <h2>前端工程化讲解：从开发体验到构建、规范和交付</h2>
+    <p>围绕项目结构、依赖管理、构建工具、代码规范、测试、CI/CD、性能优化和监控讲清工程化闭环。</p>
+  </a>
+
+  <a href="./babel-guide">
+    <h2>Babel 讲解：从语法转换到插件机制和 Polyfill</h2>
+    <p>讲清 Babel 的 AST 流程、preset、plugin、浏览器兼容、polyfill、TypeScript 和 JSX 转换。</p>
+  </a>
+
+  <a href="./eslint-guide">
+    <h2>ESLint 讲解：从代码规范到静态检查和团队协作</h2>
+    <p>系统梳理 parser、plugin、rule、config、Prettier 配合、TypeScript、React、Vue 和 CI 集成。</p>
+  </a>
+
+  <a href="./webpack-guide">
+    <h2>Webpack 讲解：从模块打包到 Loader、Plugin 和性能优化</h2>
+    <p>从依赖图讲起，覆盖 entry、output、loader、plugin、dev server、HMR、代码分割和 tree shaking。</p>
+  </a>
+
+  <a href="./vite-guide">
+    <h2>Vite 讲解：从原生 ESM 到极速开发和生产构建</h2>
+    <p>讲清 Vite 开发服务器、原生 ESM、依赖预构建、HMR、Rollup 生产构建和与 Webpack 的区别。</p>
+  </a>
+
   <a href="./typescript-learning-roadmap">
     <h2>TypeScript 实战教程：从类型基础到业务建模</h2>
     <p>通过商品和订单业务场景，讲清联合类型、类型守卫、泛型请求 SDK、表单和组件类型。</p>
@@ -146,6 +171,16 @@
   <a href="./vue-component-communication">
     <h2>Vue 2 和 Vue 3 组件通信方式讲解</h2>
     <p>围绕 props、emit、v-model、refs、provide/inject、状态管理和插槽讲清组件间数据流。</p>
+  </a>
+
+  <a href="./react-practical-guide">
+    <h2>React 使用教程：从组件、Hooks 到状态管理和性能优化</h2>
+    <p>系统讲解 JSX、props、state、Hooks、useEffect、表单、Context、状态管理、性能优化和错误边界。</p>
+  </a>
+
+  <a href="./react-vue-comparison">
+    <h2>React 与 Vue 区别讲解：从设计思想到响应式、组件和工程生态</h2>
+    <p>从 JSX 与模板、响应式机制、状态更新、组件通信、Hooks 与 Composition API、性能和生态系统对比两者差异。</p>
   </a>
 
   <a href="./browser-render-performance">
