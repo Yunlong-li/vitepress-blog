@@ -138,6 +138,11 @@
     <p>结合闭包、wraps、带参数装饰器、类装饰器、方法装饰器、异步装饰器和工程场景讲透装饰器。</p>
   </a>
 
+  <a href="./python-common-modules-guide">
+    <h2>Python 常用模块讲解：asyncio、time、uuid、collections、httpx、datetime、typing、dataclasses、os、functools</h2>
+    <p>系统讲解异步并发、时间处理、唯一 ID、容器工具、HTTP 调用、类型提示、数据类、系统交互和函数工具。</p>
+  </a>
+
   <a href="./js-async-event-loop">
     <h2>JavaScript 异步与事件循环</h2>
     <p>JS 异步、事件循环、队列和计时器相关内容。</p>
