@@ -88,7 +88,10 @@ export default defineConfig({
             { text: 'FastAPI 使用教程', link: '/posts/fastapi-practical-guide' },
             { text: 'Django 使用教程', link: '/posts/django-practical-guide' },
             { text: 'PostgreSQL 后端开发教程', link: '/posts/postgresql-backend-guide' },
-            { text: 'SQLAlchemy 使用教程', link: '/posts/sqlalchemy-practical-guide' }
+            { text: 'SQLAlchemy 使用教程', link: '/posts/sqlalchemy-practical-guide' },
+            { text: 'Python logging 库讲解', link: '/posts/python-logging-guide' },
+            { text: 'Uvicorn 使用教程', link: '/posts/uvicorn-practical-guide' },
+            { text: 'Python 装饰器讲解', link: '/posts/python-decorators-guide' }
           ]
         },
         {

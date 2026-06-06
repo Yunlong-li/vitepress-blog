@@ -123,6 +123,21 @@
     <p>系统讲解 Engine、Session、声明式模型、关系映射、查询、事务、Alembic 迁移和异步用法。</p>
   </a>
 
+  <a href="./python-logging-guide">
+    <h2>Python logging 库讲解：从日志级别到工程化配置</h2>
+    <p>讲清日志级别、Logger、Handler、Formatter、Filter、dictConfig、日志轮转、异常日志和请求 ID。</p>
+  </a>
+
+  <a href="./uvicorn-practical-guide">
+    <h2>Uvicorn 使用教程：ASGI 服务、启动参数与部署</h2>
+    <p>从 ASGI 协议、FastAPI 启动、常用参数、生命周期、日志、反向代理、Docker 和部署讲起。</p>
+  </a>
+
+  <a href="./python-decorators-guide">
+    <h2>Python 装饰器讲解：从闭包到工程化实践</h2>
+    <p>结合闭包、wraps、带参数装饰器、类装饰器、方法装饰器、异步装饰器和工程场景讲透装饰器。</p>
+  </a>
+
   <a href="./js-async-event-loop">
     <h2>JavaScript 异步与事件循环</h2>
     <p>JS 异步、事件循环、队列和计时器相关内容。</p>
