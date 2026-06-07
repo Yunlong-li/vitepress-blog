@@ -1,31 +1,46 @@
 <script setup lang="ts">
-import { computed, onMounted, ref, watch } from 'vue'
+import { computed, onMounted, onUnmounted, ref, watch } from 'vue'
 
 const defaultPlaylistId = '19723756'
-const playerHeight = 430
+const desktopPlayerHeight = 430
 const dockStorageKey = 'vitepress-blog-music-dock-open'
 const playlistStorageKey = 'vitepress-blog-music-playlist-id'
+const compactViewportMedia = '(max-width: 640px), (hover: none) and (pointer: coarse)'
 
 const isOpen = ref(false)
 const hasOpened = ref(false)
+const isCompactViewport = ref(false)
 const activePlaylistId = ref(defaultPlaylistId)
 const playlistInput = ref('')
 const playlistMessage = ref('')
 const playlistError = ref('')
+let compactViewportQuery: MediaQueryList | undefined
 
-const playerSrc = computed(() => {
+const desktopPlayerSrc = computed(() => {
   const params = new URLSearchParams({
     type: '0',
     id: activePlaylistId.value,
     auto: '0',
-    height: String(playerHeight)
+    height: String(desktopPlayerHeight)
   })
 
   return `https://music.163.com/outchain/player?${params.toString()}`
 })
 
+const mobilePlaylistSrc = computed(() => {
+  const params = new URLSearchParams({
+    id: activePlaylistId.value
+  })
+
+  return `https://music.163.com/m/playlist?${params.toString()}`
+})
+
+const playerSrc = computed(() => {
+  return isCompactViewport.value ? mobilePlaylistSrc.value : desktopPlayerSrc.value
+})
+
 const playlistUrl = computed(() => {
-  return `https://music.163.com/#/playlist?id=${activePlaylistId.value}`
+  return `https://music.163.com/playlist?id=${activePlaylistId.value}`
 })
 
 const playlistLabel = computed(() => {
@@ -33,6 +48,10 @@ const playlistLabel = computed(() => {
 })
 
 onMounted(() => {
+  compactViewportQuery = window.matchMedia(compactViewportMedia)
+  isCompactViewport.value = compactViewportQuery.matches
+  addCompactViewportListener(compactViewportQuery)
+
   const savedPlaylistId = window.localStorage.getItem(playlistStorageKey)
   const savedOpenState = window.localStorage.getItem(dockStorageKey)
 
@@ -43,6 +62,12 @@ onMounted(() => {
   if (savedOpenState === 'true') {
     isOpen.value = true
     hasOpened.value = true
+  }
+})
+
+onUnmounted(() => {
+  if (compactViewportQuery) {
+    removeCompactViewportListener(compactViewportQuery)
   }
 })
 
@@ -58,6 +83,26 @@ watch(isOpen, (open) => {
 
 function toggleDock() {
   isOpen.value = !isOpen.value
+}
+
+function addCompactViewportListener(query: MediaQueryList) {
+  if (typeof query.addEventListener === 'function') {
+    query.addEventListener('change', syncCompactViewport)
+  } else {
+    query.addListener(syncCompactViewport)
+  }
+}
+
+function removeCompactViewportListener(query: MediaQueryList) {
+  if (typeof query.removeEventListener === 'function') {
+    query.removeEventListener('change', syncCompactViewport)
+  } else {
+    query.removeListener(syncCompactViewport)
+  }
+}
+
+function syncCompactViewport(event: MediaQueryListEvent | MediaQueryList) {
+  isCompactViewport.value = event.matches
 }
 
 function extractPlaylistId(value: string) {
@@ -118,7 +163,7 @@ function resetPlaylist() {
           <span class="music-dock__subtitle">歌单播放器</span>
         </div>
         <a class="music-dock__link" :href="playlistUrl" target="_blank" rel="noreferrer">
-          歌词
+          打开
         </a>
       </div>
 

@@ -1,6 +1,9 @@
 node_modules
+.codegraph/
 .vitepress/cache
 .vitepress/dist
+.vitepress/*.err
+.vitepress/*.log
 dist
 .DS_Store
 *.local

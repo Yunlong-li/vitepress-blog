@@ -275,6 +275,7 @@
   width: 100%;
   height: 100%;
   border: 0;
+  background: #fff;
 }
 
 .music-dock__placeholder {
@@ -401,7 +402,7 @@
   }
 
   .music-dock__panel {
-    height: min(532px, calc(100dvh - 88px));
+    height: min(640px, calc(100dvh - 88px));
     max-height: calc(100dvh - 88px);
     width: 100%;
     transform-origin: right bottom;
@@ -423,7 +424,7 @@
 @supports not (height: 100dvh) {
   @media (max-width: 640px) {
     .music-dock__panel {
-      height: min(532px, calc(100vh - 88px));
+      height: min(640px, calc(100vh - 88px));
       max-height: calc(100vh - 88px);
     }
   }
