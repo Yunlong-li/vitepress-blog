@@ -87,6 +87,9 @@
 }
 
 .music-dock__panel {
+  display: flex;
+  max-height: calc(100vh - 120px);
+  flex-direction: column;
   width: min(360px, calc(100vw - 32px));
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--vp-c-divider) 72%, #fff 28%);
@@ -258,11 +261,16 @@
 }
 
 .music-dock__body {
+  position: relative;
+  flex: 0 0 auto;
   height: 450px;
   background: color-mix(in srgb, var(--vp-c-bg) 92%, #000 8%);
+  overflow: hidden;
 }
 
 .music-dock__iframe {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
   height: 100%;
@@ -270,8 +278,9 @@
 }
 
 .music-dock__placeholder {
+  position: absolute;
+  inset: 0;
   display: grid;
-  height: 100%;
   place-items: center;
   color: var(--vp-c-text-2);
   font-size: 14px;
@@ -388,20 +397,34 @@
     right: 12px;
     bottom: 12px;
     left: 12px;
+    gap: 8px;
   }
 
   .music-dock__panel {
+    height: min(532px, calc(100dvh - 88px));
+    max-height: calc(100dvh - 88px);
     width: 100%;
     transform-origin: right bottom;
   }
 
   .music-dock__body {
-    height: min(390px, calc(100vh - 205px));
+    flex: 1 1 auto;
+    min-height: 0;
+    height: auto;
   }
 
   .music-dock__toggle {
     width: 56px;
     height: 56px;
     padding: 6px;
+  }
+}
+
+@supports not (height: 100dvh) {
+  @media (max-width: 640px) {
+    .music-dock__panel {
+      height: min(532px, calc(100vh - 88px));
+      max-height: calc(100vh - 88px);
+    }
   }
 }

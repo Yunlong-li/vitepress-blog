@@ -147,7 +147,7 @@ function resetPlaylist() {
 
       <div class="music-dock__body">
         <iframe v-if="hasOpened" :key="playerSrc" class="music-dock__iframe" :src="playerSrc" title="网易云音乐歌单播放器"
-          allow="autoplay; encrypted-media" loading="lazy" />
+          allow="autoplay; encrypted-media" loading="eager" />
         <div v-else class="music-dock__placeholder">打开后加载歌单</div>
       </div>
     </section>
