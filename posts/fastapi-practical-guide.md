@@ -452,6 +452,8 @@ tests/
 4. `db` 负责数据库连接和模型。
 5. `core` 放配置和安全工具。
 
+本文相关代码可以在仓库的 `coding/fastapi-lab` 和 `coding/fastapi-lab-bycodex` 目录中查看。前者保留学习过程中的零散练习，后者按照上面的推荐项目结构整理成了一个可运行的小型 Demo，并包含初始化 SQL、README 和基础测试。
+
 ## 14. 请求生命周期
 
 ```mermaid

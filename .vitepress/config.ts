@@ -78,7 +78,8 @@ export default defineConfig({
             { text: '幂等性讲解', link: '/posts/idempotency-guide' },
             { text: 'Redis 使用教程', link: '/posts/redis-practical-guide' },
             { text: 'Supabase 使用教程', link: '/posts/supabase-practical-guide' },
-            { text: 'PostgreSQL 使用教程', link: '/posts/postgresql-practical-guide' }
+            { text: 'PostgreSQL 使用教程', link: '/posts/postgresql-practical-guide' },
+            { text: 'Elasticsearch 使用教程', link: '/posts/elasticsearch-practical-guide' }
           ]
         },
         {

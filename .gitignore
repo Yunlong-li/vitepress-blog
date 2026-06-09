@@ -7,3 +7,7 @@ node_modules
 dist
 .DS_Store
 *.local
+.codegraph/
+__pycache__/
+*.py[cod]
+.pytest_cache/

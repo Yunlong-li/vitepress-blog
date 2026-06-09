@@ -33,6 +33,11 @@
     <p>系统讲解表设计、SQL、约束、索引、执行计划、事务、锁、JSONB、全文搜索和 Node.js 访问。</p>
   </a>
 
+  <a href="./elasticsearch-practical-guide">
+    <h2>Elasticsearch 使用教程：从倒排索引到全文搜索、聚合分析和性能优化</h2>
+    <p>系统讲解倒排索引、mapping、搜索 DSL、相关性、分页、高亮、聚合、数据同步、集群和 Node.js 接入。</p>
+  </a>
+
   <a href="./micro-frontend-guide">
     <h2>微前端实战与面试复习</h2>
     <p>从架构拆分、运行时集成、通信、样式隔离、部署和面试表达系统梳理微前端。</p>
