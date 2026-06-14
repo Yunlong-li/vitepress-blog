@@ -28,6 +28,11 @@
     <p>围绕 Postgres、Auth、RLS、Storage、Realtime 和 Edge Functions 构建完整后端能力。</p>
   </a>
 
+  <a href="./prisma-practical-guide">
+    <h2>Prisma 使用教程：从 Schema、迁移到类型安全查询和事务</h2>
+    <p>围绕 schema.prisma、Prisma Client、Migrate、关系查询、分页、事务、raw SQL 和生产实践讲清 ORM 落地方式。</p>
+  </a>
+
   <a href="./postgresql-practical-guide">
     <h2>PostgreSQL 使用教程：从 SQL 基础到索引、事务、JSONB 和性能分析</h2>
     <p>系统讲解表设计、SQL、约束、索引、执行计划、事务、锁、JSONB、全文搜索和 Node.js 访问。</p>
@@ -86,6 +91,11 @@
   <a href="./vite-guide">
     <h2>Vite 讲解：从原生 ESM 到极速开发和生产构建</h2>
     <p>讲清 Vite 开发服务器、原生 ESM、依赖预构建、HMR、Rollup 生产构建和与 Webpack 的区别。</p>
+  </a>
+
+  <a href="./tailwind-css-practical-guide">
+    <h2>Tailwind CSS 使用教程：从原子化样式到响应式、主题和组件封装</h2>
+    <p>讲清 utility-first 思路、安装接入、工具类、状态变体、响应式、暗色模式、主题变量、组件封装和团队规范。</p>
   </a>
 
   <a href="./typescript-learning-roadmap">
@@ -201,6 +211,11 @@
   <a href="./react-practical-guide">
     <h2>React 使用教程：从组件、Hooks 到状态管理和性能优化</h2>
     <p>系统讲解 JSX、props、state、Hooks、useEffect、表单、Context、状态管理、性能优化和错误边界。</p>
+  </a>
+
+  <a href="./nextjs-practical-guide">
+    <h2>Next.js 使用教程：从 App Router 到服务端组件、数据获取和部署</h2>
+    <p>围绕 App Router、布局、服务端组件、客户端组件、数据获取、缓存、Server Actions、Route Handlers 和部署讲清 Next.js。</p>
   </a>
 
   <a href="./react-vue-comparison">

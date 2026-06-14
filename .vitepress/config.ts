@@ -78,6 +78,7 @@ export default defineConfig({
             { text: '幂等性讲解', link: '/posts/idempotency-guide' },
             { text: 'Redis 使用教程', link: '/posts/redis-practical-guide' },
             { text: 'Supabase 使用教程', link: '/posts/supabase-practical-guide' },
+            { text: 'Prisma 使用教程', link: '/posts/prisma-practical-guide' },
             { text: 'PostgreSQL 使用教程', link: '/posts/postgresql-practical-guide' },
             { text: 'Elasticsearch 使用教程', link: '/posts/elasticsearch-practical-guide' }
           ]
@@ -120,6 +121,7 @@ export default defineConfig({
           text: 'React',
           items: [
             { text: 'React 使用教程', link: '/posts/react-practical-guide' },
+            { text: 'Next.js 使用教程', link: '/posts/nextjs-practical-guide' },
             { text: 'React 与 Vue 区别', link: '/posts/react-vue-comparison' }
           ]
         },
@@ -130,7 +132,8 @@ export default defineConfig({
             { text: 'Babel 讲解', link: '/posts/babel-guide' },
             { text: 'ESLint 讲解', link: '/posts/eslint-guide' },
             { text: 'Webpack 讲解', link: '/posts/webpack-guide' },
-            { text: 'Vite 讲解', link: '/posts/vite-guide' }
+            { text: 'Vite 讲解', link: '/posts/vite-guide' },
+            { text: 'Tailwind CSS 使用教程', link: '/posts/tailwind-css-practical-guide' }
           ]
         },
         {
