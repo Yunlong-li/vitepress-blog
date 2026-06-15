@@ -3,6 +3,16 @@
 旧博客笔记已经按主题拆分成下面这些复习文章。原始归档仍然保留在最后，方便需要时回看完整上下文。
 
 <div class="post-list">
+  <a href="./docker-compose-practical-guide">
+    <h2>Docker 使用教程：从镜像、容器到 Docker Compose 和生产部署</h2>
+    <p>系统讲解镜像、容器、Dockerfile、数据卷、网络、Compose、多阶段构建、仓库、安全和生产部署。</p>
+  </a>
+
+  <a href="./object-storage-practical-guide">
+    <h2>对象存储使用教程：从 S3、MinIO 到 R2、OSS、COS 和 Ceph RGW</h2>
+    <p>讲清 Bucket、Object、Key、S3 API、预签名 URL、分片上传、权限、生命周期、CDN 和热门方案选型。</p>
+  </a>
+
   <a href="./nginx-practical-guide">
     <h2>Nginx 使用教程：从静态服务到反向代理、负载均衡和 HTTPS</h2>
     <p>从来源和配置模型讲起，覆盖静态资源、反向代理、负载均衡、缓存、压缩、HTTPS、日志和排查。</p>
@@ -178,6 +188,11 @@
     <p>Map、Set、Object、数组方法和循环遍历。</p>
   </a>
 
+  <a href="./lodash-practical-guide">
+    <h2>Lodash 使用教程：从集合处理到防抖节流、对象操作和函数工具</h2>
+    <p>围绕集合分组统计、排序去重、对象路径、深拷贝、深合并、防抖节流、按需引入和现代 JS 替代方案讲清 Lodash。</p>
+  </a>
+
   <a href="./vue3-review">
     <h2>Vue 3 面试复习</h2>
     <p>Vue3 与 Vue2 对比、组合式 API、Hook、TypeScript 支持和生命周期。</p>
@@ -216,6 +231,11 @@
   <a href="./nextjs-practical-guide">
     <h2>Next.js 使用教程：从 App Router 到服务端组件、数据获取和部署</h2>
     <p>围绕 App Router、布局、服务端组件、客户端组件、数据获取、缓存、Server Actions、Route Handlers 和部署讲清 Next.js。</p>
+  </a>
+
+  <a href="./nextjs-app-router-advanced-guide">
+    <h2>Next.js 进阶教程：App Router、缓存、Server Actions 与生产实践</h2>
+    <p>聚焦服务端/客户端边界、缓存和重新验证、Server Actions、Route Handlers、认证、安全和生产部署。</p>
   </a>
 
   <a href="./react-vue-comparison">

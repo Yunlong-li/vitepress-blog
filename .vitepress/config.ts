@@ -73,6 +73,8 @@ export default defineConfig({
         {
           text: '后端基础设施',
           items: [
+            { text: 'Docker 使用教程', link: '/posts/docker-compose-practical-guide' },
+            { text: '对象存储使用教程', link: '/posts/object-storage-practical-guide' },
             { text: 'Nginx 使用教程', link: '/posts/nginx-practical-guide' },
             { text: '消息队列中间件使用教程', link: '/posts/message-queue-middleware-guide' },
             { text: '幂等性讲解', link: '/posts/idempotency-guide' },
@@ -103,7 +105,8 @@ export default defineConfig({
             { text: '异步与事件循环', link: '/posts/js-async-event-loop' },
             { text: '数值与字符串', link: '/posts/js-number-string' },
             { text: 'this、闭包与函数技巧', link: '/posts/js-this-closure-functional' },
-            { text: '集合、数组与遍历', link: '/posts/js-collections-arrays-iteration' }
+            { text: '集合、数组与遍历', link: '/posts/js-collections-arrays-iteration' },
+            { text: 'Lodash 使用教程', link: '/posts/lodash-practical-guide' }
           ]
         },
         {
@@ -122,6 +125,7 @@ export default defineConfig({
           items: [
             { text: 'React 使用教程', link: '/posts/react-practical-guide' },
             { text: 'Next.js 使用教程', link: '/posts/nextjs-practical-guide' },
+            { text: 'Next.js 进阶教程', link: '/posts/nextjs-app-router-advanced-guide' },
             { text: 'React 与 Vue 区别', link: '/posts/react-vue-comparison' }
           ]
         },
