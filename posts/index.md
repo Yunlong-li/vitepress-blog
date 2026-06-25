@@ -153,6 +153,11 @@
     <p>讲清日志级别、Logger、Handler、Formatter、Filter、dictConfig、日志轮转、异常日志和请求 ID。</p>
   </a>
 
+  <a href="./python-argparse-guide">
+    <h2>Python argparse 库讲解：从命令行参数到子命令和工程化 CLI</h2>
+    <p>系统讲解位置参数、可选参数、类型转换、默认值、布尔开关、列表参数、互斥参数、子命令和测试方式。</p>
+  </a>
+
   <a href="./uvicorn-practical-guide">
     <h2>Uvicorn 使用教程：ASGI 服务、启动参数与部署</h2>
     <p>从 ASGI 协议、FastAPI 启动、常用参数、生命周期、日志、反向代理、Docker 和部署讲起。</p>

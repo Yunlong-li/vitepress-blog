@@ -94,6 +94,7 @@ export default defineConfig({
             { text: 'PostgreSQL 后端开发教程', link: '/posts/postgresql-backend-guide' },
             { text: 'SQLAlchemy 使用教程', link: '/posts/sqlalchemy-practical-guide' },
             { text: 'Python logging 库讲解', link: '/posts/python-logging-guide' },
+            { text: 'Python argparse 库讲解', link: '/posts/python-argparse-guide' },
             { text: 'Uvicorn 使用教程', link: '/posts/uvicorn-practical-guide' },
             { text: 'Python 装饰器讲解', link: '/posts/python-decorators-guide' },
             { text: 'Python 常用模块讲解', link: '/posts/python-common-modules-guide' }
